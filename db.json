@@ -1,4 +1,4 @@
-execJsonp({
+{
   "posts": [
     {
       "id": 1,
@@ -9,4 +9,3 @@ execJsonp({
     "name": "typicode"
   }
 }
-)
